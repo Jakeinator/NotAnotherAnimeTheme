@@ -1674,3 +1674,7 @@ box-shadow-none !important;
     background: var(--main-transparency);
 }
 
+body>div:last-of-type {
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
