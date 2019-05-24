@@ -4,8 +4,13 @@ html {
     font-size: var(--font-size) !important;
 }
 
+.container-2lgZY8 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .channels-Ie2l6A {
     -ms-flex-negative: 0;
+    background-color: var(--main-transparency);
     flex-shrink: 0;
     width: 240px;
 }
@@ -15,6 +20,8 @@ html {
     -ms-flex-negative: 0;
     -webkit-box-align: center;
     align-items: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -27,14 +34,63 @@ html {
     border-top: 1px solid var(--border-lines-color);
 }
 
+.theme-dark .title-3qD0b- {
+    /* -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
+    background: var(--main-transparency);
+    /* box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(0, 0, 0, 0);
+}
 .container-PNkimc {
+    background-color: rgba(0, 0, 0, 0);
     contain: layout;
     min-height: 0;
     position: relative;
 }
 
+.theme-dark .members-1998pB {
+    background-color: var(--main-transparency);
+}
+
+.theme-dark .chat>.content {
+    background-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .chat {
+    background-color: var(--main-transparency);
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark #friends {
+    background-color: var(--main-transparency);
+}
 
 
+.theme-dark .title-3qD0b- {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+}
+
+.theme-dark .inner-zqa7da {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.contentSelectedText-3wUhMi {
+    background-color: rgba(0, 0, 0, 0.0);
+}
 
 .container-1UB9sr {
     -ms-flex-align: center;
@@ -53,12 +109,21 @@ html {
     padding: 10px;
 }
 
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
 
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0);
+}
 
 .appMount-3VJmYg {
     -ms-flex-direction: column;
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
+    background-color: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -74,6 +139,9 @@ html {
     color: #fff;
 }
 
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(114, 137, 218, 0.2);
+}
 
 .message-group .mentioned .message-text:after {
     background: rgba(114, 137, 218, 0.25);
